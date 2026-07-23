@@ -55,7 +55,7 @@ export default function Services() {
               >
                 {s.icon}
               </svg>
-              <h3 className="font-serif text-lg mb-2">{s.title}</h3>
+              <h3 className="font-serif text-xl mb-2">{s.title}</h3>
               <div className="divider" />
               <p className="text-sm text-forest-dark/70 leading-relaxed">
                 {s.desc}

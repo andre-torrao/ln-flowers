@@ -10,7 +10,7 @@ export default function Hero() {
         }}
       />
       <div className="relative max-w-7xl mx-auto w-full px-6 md:px-10 pb-16 pt-40">
-        <h1 className="font-serif text-cream text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] max-w-2xl">
+        <h1 className="font-serif text-cream text-5xl md:text-6xl lg:text-7xl leading-[1.05] max-w-3xl">
           Transformamos espaços através da natureza
         </h1>
         <div className="w-14 h-[2px] bg-cream/60 my-6" />

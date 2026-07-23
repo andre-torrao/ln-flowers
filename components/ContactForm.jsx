@@ -71,7 +71,7 @@ export default function ContactForm() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-20 grid md:grid-cols-[0.9fr_1.4fr] gap-12">
         <div>
           <p className="eyebrow">Peça o seu orçamento</p>
-          <h2 className="font-serif text-3xl mt-2 mb-2">Vamos conversar</h2>
+          <h2 className="font-serif text-4xl mt-2 mb-2">Vamos conversar</h2>
           <div className="divider" />
           <p className="text-forest-dark/70 leading-relaxed max-w-xs">
             Preencha o formulário e entraremos em contacto brevemente.

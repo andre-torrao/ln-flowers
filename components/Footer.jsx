@@ -2,18 +2,8 @@ export default function Footer() {
   return (
     <footer className="bg-forest-dark text-cream/80">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
-        <a href="#top" className="flex items-center gap-2 text-cream">
-          <span className="font-serif text-lg border border-cream/50 px-1.5 py-0.5">
-            LN
-          </span>
-          <span className="leading-tight">
-            <span className="block font-semibold tracking-widest2 uppercase text-[11px]">
-              Flowers
-            </span>
-            <span className="block text-[9px] tracking-widest2 uppercase text-cream/60">
-              Floral &amp; Botanical Design
-            </span>
-          </span>
+        <a href="#top" className="font-serif text-cream text-base tracking-wide">
+          LN Flowers
         </a>
 
         <p>© 2026 LnFlowers. Todos os direitos reservados.</p>

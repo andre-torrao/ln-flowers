@@ -37,7 +37,7 @@ export default function Process() {
                   {s.n}
                 </span>
               </div>
-              <h3 className="font-serif text-lg mb-2 max-w-xs">{s.title}</h3>
+              <h3 className="font-serif text-xl mb-2 max-w-xs">{s.title}</h3>
               <p className="text-sm text-forest-dark/70 max-w-xs leading-relaxed">
                 {s.desc}
               </p>

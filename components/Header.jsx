@@ -14,18 +14,8 @@ export default function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-30">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 py-6">
-        <a href="#top" className="flex items-center gap-2 text-cream">
-          <span className="font-serif text-2xl tracking-wide border border-cream/70 px-2 py-0.5">
-            LN
-          </span>
-          <span className="leading-tight">
-            <span className="block text-sm font-semibold tracking-widest2 uppercase">
-              Flowers
-            </span>
-            <span className="block text-[10px] tracking-widest2 uppercase text-cream/70">
-              Floral &amp; Botanical Design
-            </span>
-          </span>
+        <a href="#top" className="font-serif text-cream text-xl md:text-2xl tracking-wide">
+          LN Flowers
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-xs tracking-widest2 uppercase text-cream/90">

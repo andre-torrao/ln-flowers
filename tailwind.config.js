@@ -17,8 +17,8 @@ module.exports = {
         clay: "#8C7A63",
       },
       fontFamily: {
-        serif: ["'Fraunces'", "serif"],
-        sans: ["'Inter'", "sans-serif"],
+        serif: ["'Archivo Black'", "sans-serif"],
+        sans: ["'Tenor Sans'", "sans-serif"],
       },
       letterSpacing: {
         widest2: "0.18em",
