@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-forest-dark font-sans;
+}
+
+.eyebrow {
+  @apply text-xs tracking-widest2 uppercase text-clay font-medium;
+}
+
+.divider {
+  @apply w-10 h-[2px] bg-forest my-4;
+}
+
+.input {
+  @apply w-full bg-sand/60 border border-forest-dark/15 px-4 py-2.5 text-sm text-forest-dark placeholder:text-forest-dark/40 focus:outline-none focus:border-forest focus:bg-cream transition-colors;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
