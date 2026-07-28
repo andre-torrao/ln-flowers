@@ -24,14 +24,6 @@ export default function Projects() {
             />
           ))}
         </div>
-        <div className="text-center mt-10">
-          <a
-            href="#"
-            className="inline-block border border-forest-dark px-6 py-3 text-xs tracking-widest2 uppercase hover:bg-forest hover:text-cream hover:border-forest transition-colors"
-          >
-            Ver mais projetos
-          </a>
-        </div>
       </div>
     </section>
   );
