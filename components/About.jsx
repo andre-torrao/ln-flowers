@@ -14,12 +14,6 @@ export default function About() {
             Cada projeto é pensado de forma personalizada, adaptando-se às
             necessidades de cada cliente.
           </p>
-          <a
-            href="#projetos"
-            className="text-xs tracking-widest2 uppercase font-medium border-b border-forest-dark pb-1 hover:opacity-70 transition-opacity"
-          >
-            Saber mais sobre nós →
-          </a>
         </div>
         <div
           className="aspect-[4/5] w-full bg-cover bg-center bg-sand"

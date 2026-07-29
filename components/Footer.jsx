@@ -9,15 +9,14 @@ export default function Footer() {
         <p>© 2026 LnFlowers. Todos os direitos reservados.</p>
 
         <div className="flex items-center gap-5">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://instagram.com/ln_flowers" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <rect x="3" y="3" width="18" height="18" rx="5" />
               <circle cx="12" cy="12" r="4" />
               <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
             </svg>
           </a>
-          <a href="mailto:geral@lnflowers.pt">geral@lnflowers.pt</a>
-          <a href="tel:+351000000000">+351 000 000 000</a>
+          <a href="mailto:byluisnogueira@gmail.com">byluisnogueira@gmail.com</a>
         </div>
       </div>
     </footer>

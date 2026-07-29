@@ -3,10 +3,10 @@ export default function Hero() {
     <section id="top" className="relative min-h-[620px] flex items-end">
       {/* Substituir por foto real em /public/images/hero.jpg */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-bottom"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(20,30,23,0.88) 0%, rgba(20,30,23,0.35) 55%, rgba(20,30,23,0.15) 100%), url(/images/hero.jpg)",
+            "linear-gradient(90deg, rgba(20,30,23,0.78) 0%, rgba(20,30,23,0.25) 55%, rgba(20,30,23,0.08) 100%), url(/images/hero.jpg)",
         }}
       />
       <div className="relative max-w-7xl mx-auto w-full px-6 md:px-10 pb-16 pt-40">
@@ -24,12 +24,6 @@ export default function Hero() {
             className="bg-forest hover:bg-forest-light transition-colors text-cream px-6 py-3 text-xs tracking-widest2 uppercase"
           >
             Pedir orçamento
-          </a>
-          <a
-            href="#sobre"
-            className="border border-cream/70 hover:bg-cream/10 transition-colors text-cream px-6 py-3 text-xs tracking-widest2 uppercase"
-          >
-            Conhecer a LN Flowers
           </a>
         </div>
       </div>
