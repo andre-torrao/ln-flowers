@@ -43,21 +43,21 @@ export default function Services() {
               className="bg-cream px-6 py-10 text-center flex flex-col items-center hover:-translate-y-1 transition-transform"
             >
               <svg
-                width="34"
-                height="34"
+                width="48"
+                height="48"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="1.3"
+                strokeWidth="1.2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="text-forest mb-4"
+                className="text-forest mb-5"
               >
                 {s.icon}
               </svg>
-              <h3 className="font-serif text-xl mb-2">{s.title}</h3>
+              <h3 className="font-serif text-2xl mb-3">{s.title}</h3>
               <div className="divider" />
-              <p className="text-sm text-forest-dark/70 leading-relaxed">
+              <p className="text-base text-forest-dark/70 leading-relaxed">
                 {s.desc}
               </p>
             </div>

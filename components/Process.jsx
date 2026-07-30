@@ -29,13 +29,13 @@ export default function Process() {
         <div className="grid md:grid-cols-3 gap-10 relative">
           {steps.map((s, i) => (
             <div key={s.n} className="text-center flex flex-col items-center px-4">
-              <div className="w-20 h-20 rounded-full bg-forest text-cream flex items-center justify-center mb-5">
-                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <div className="w-24 h-24 rounded-full bg-forest text-cream flex items-center justify-center mb-6">
+                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
                   {s.icon}
                 </svg>
               </div>
-              <h3 className="font-serif text-xl mb-2 max-w-xs">{s.title}</h3>
-              <p className="text-sm text-forest-dark/70 max-w-xs leading-relaxed">
+              <h3 className="font-serif text-2xl mb-3 max-w-sm">{s.title}</h3>
+              <p className="text-base text-forest-dark/70 max-w-sm leading-relaxed">
                 {s.desc}
               </p>
             </div>
