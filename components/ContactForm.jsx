@@ -5,7 +5,8 @@ import { useState } from "react";
 const projectTypes = [
   "Floral Design",
   "Botanical Design",
-  "Evento (casamento, privado ou corporativo)",
+  "Casamento",
+  "Evento (particular ou corporativo)",
   "Espaço (hotel, restaurante, loja, empresa)",
   "Outro",
 ];
@@ -124,7 +125,7 @@ export default function ContactForm() {
                 name="tipo_projeto"
                 value={form.tipo_projeto}
                 onChange={handleChange}
-                className="input"
+                className="input select-input"
               >
                 <option value="">Selecione uma opção</option>
                 {projectTypes.map((t) => (
@@ -158,7 +159,7 @@ export default function ContactForm() {
                 name="orcamento_estimado"
                 value={form.orcamento_estimado}
                 onChange={handleChange}
-                className="input"
+                className="input select-input"
               >
                 <option value="">Selecione uma opção</option>
                 {budgetRanges.map((b) => (
